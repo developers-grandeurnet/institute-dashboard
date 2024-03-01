@@ -47,10 +47,11 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a
             href="mailto:contact@example.com">support@grandeurnet.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span> +91 82799 88072</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <!-- <a href="" class="twitter"><i class="bi bi-twitter"></i></a> -->
+        <a href="https://api.whatsapp.com/send/?phone=8279988072&text&type=phone_number&app_absent=0" target=" _blank"
+          class="whatsapp"><i class="bi bi-whatsapp"></i></a>
         <a href="https://www.facebook.com/GRANDEURNET" target="_blank" class="facebook"><i
             class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/grandeur_net/" target="_blank" class="instagram"><i
@@ -72,12 +73,13 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i
+          <li><a href="#about">Details</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a href="#team">Team</a></li> -->
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i
                 class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -95,7 +97,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -112,7 +114,7 @@
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Welcome to <span>Institute Management Dashboard.</span></h2>
+          <h2>Welcome to <span>Institute Management System.</span></h2>
           <p>Manage your institute's employee, students, library, Accounts Department, all with Grandeur Net's institute
             Dashboard Management System.
           </p>
@@ -136,10 +138,10 @@
 
 
 
-          <div class="col-xl-2.2 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <!-- <div class="icon"><i class="bi bi-easel"></i></div> -->
-              <img src="assets/img/institute-dashboard1.png" height="300px" />
+              <img src="assets/img/institute-dashboard1.png" class="col-12 d-flex justify-content-center" />
               <h4 class="title"><a href="https://institute.grandeurnet.com/institute_admin/login/" target="_blank"
                   class="stretched-link">Institute Admin</a></h4>
             </div>
@@ -149,7 +151,7 @@
           <div class="col-xl-2.2 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <!-- <div class="icon"><i class="bi bi-gem"></i></div> -->
-              <img src="assets/img/account-department2.png" height="300px" />
+              <img src="assets/img/account-department2.png" class="col-12 d-flex justify-content-center" />
               <h4 class="title"><a href="https://institute.grandeurnet.com/account_dept/login/" target="_blank"
                   class="stretched-link">Account Department</a></h4>
             </div>
@@ -158,7 +160,7 @@
           <div class="col-xl-2.2 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <!-- <div class="icon"><i class="bi bi-geo-alt"></i></div> -->
-              <img src="assets/img/branch-admin.png" height="270px" />
+              <img src="assets/img/branch-admin.png" class="col-12 d-flex justify-content-center" />
               <h4 class="title"><a href="https://institute.grandeurnet.com/branch_admin/login/" target="_blank"
                   class="stretched-link">Branch Admin</a></h4>
             </div>
@@ -167,7 +169,7 @@
           <div class="col-xl-2.2 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <!-- <div class="icon"><i class="bi bi-command"></i></div> -->
-              <img src="assets/img/front-office.png" height="280px" />
+              <img src="assets/img/front-office.png" class="col-12 d-flex justify-content-center" />
               <h4 class="title"><a href="https://institute.grandeurnet.com/front_office/login/" target="_blank"
                   class="stretched-link">Front office</a></h4>
             </div>
@@ -176,7 +178,7 @@
           <div class="col-xl-2.2 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <!-- <div class="icon"><i class="bi bi-command"></i></div> -->
-              <img src="assets/img/library.png" height="260px" />
+              <img src="assets/img/library.png" class="col-12 d-flex justify-content-center" />
               <h4 class="title"><a href="https://institute.grandeurnet.com/library/login/" target="_blank"
                   class="stretched-link">Library</a></h4>
             </div>
@@ -202,29 +204,29 @@
 
 
         <!-- one card with detail -->
-        <div class="row gy-4">
-          <div class="col-lg-6">
+        <div class="row gy-4 mb-5">
+          <!-- <div class="col-lg-6">
             <img src="assets/img/box1design.png" class="img-fluid rounded-4 mb-4" alt="">
-          </div>
-          <div class="col-lg-6">
+          </div> -->
+          <div class="col-lg-12">
             <div class="content ps-0 ps-lg-5">
-              <h3>For every member associated with institute</h3>
-              <p class="fst-italic">
-                Admin can do all the following things -
-              </p>
+              <h2> <strong> Key Features - </strong></h2>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i>Add Branch, Branch Admin, Students, Employees,
+                <li><i class="bi bi-check-circle-fill"></i>Add Branch, Branch Admin, Investors, Students, Employees,
+                  Parents, Enquiries, Batch, Courses.
                 </li>
-                <li><i class="bi bi-check-circle-fill"></i>Manage Branch, Branch Admin, Students, Employees.
+                <li><i class="bi bi-check-circle-fill"></i>Manage Branch, Branch Admin, Investors, Students, Employees,
+                  Parents, Enquiries, Batch, Courses.
                 </li>
-                <li><i class="bi bi-check-circle-fill"></i> On creating any user, either it is Branch Admin, Investors,
-                  Students, Parents a mail is sent to that particular email.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Can see all important details on homepage of Dashboard like
+                  - count of students, branches, employees, investors.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Admins can create other dashboard users like front office,
+                  Library manager, Accounts department.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Library manager can manage all the books that are issued by
+                  any student and on which date.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Accounts department user can view and manage the fees of
+                  students and salaries of all employees.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -250,11 +252,6 @@
                   message to all of them seprately.</li>
                 <li><i class="bi bi-check-circle-fill"></i>Has Login and Logout functionalities.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -281,11 +278,6 @@
                   can delete them.</li>
                 <li><i class="bi bi-check-circle-fill"></i>Has Login and Logout functionalities.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -312,11 +304,6 @@
                 <li><i class="bi bi-check-circle-fill"></i>Also can view all students fee and mark them.</li>
                 <li><i class="bi bi-check-circle-fill"></i>Has Login and Logout functionalities.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -345,11 +332,6 @@
 
                 <li><i class="bi bi-check-circle-fill"></i>Has Login and Logout functionalities.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -375,11 +357,6 @@
 
                 <li><i class="bi bi-check-circle-fill"></i>Has Login and Logout functionalities.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
             </div>
           </div>
         </div>
@@ -425,19 +402,19 @@
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae diredo para mesta</p>
+              <p><strong>Happy Clients</strong></p>
             </div>
 
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+              <p><strong>Projects</strong></p>
             </div>
 
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="453" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+              <p><strong>Hours Of Support</strong></p>
             </div>
 
           </div>
@@ -451,7 +428,7 @@
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
       <div class="container text-center">
-        <video autoplay muted controls width="1200px">
+        <video autoplay muted controls class="col-12 d-flex justify-content-center">
           <source src="assets/img/satisfiedclient.mp4" type="video/mp4">
         </video>
       </div>
@@ -562,8 +539,7 @@
 
         <div class="section-header">
           <h2>Testimonials</h2>
-          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
-            quam</p>
+          <p>Some of our clients who are happy from our service</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -573,9 +549,109 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="assets/img/happy3.png" height="80px" class="testimonial-img flex-shrink-0" alt="">
                     <div>
-                      <h3>Saul Goodman</h3>
+                      <h3>Sudeep Kumar Naru</h3>
+                      <h4>Shikhar Institute Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Best digital marketing services company in dehradun, They helped by developing portal for my
+                    institute, an Institute management system, the give updates of daily work on whatsapp group, whole
+                    team is very professional.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/happy2.jpg" height="80px" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Anup</h3>
+                      <h4>Ceo &amp; owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Grandeur Net helped me in growing reach of my website and exapnd my business, their SEO services are
+                    best,
+                    during all the process they are connected with me on whatsapp and asked for feedback.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/happy9.jpg" height="80px" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Viraj</h3>
+                      <h4>Company owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    I didn't have my business website till i get to know about Grandeur Net, they not only made my
+                    webiste but also helped my business growing with their SEO services, I am totally satisfied with
+                    their services.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/happy10.jpg" height="80px" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Ankita</h3>
+                      <h4>Ceo</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    What can I say about them, they are just the best of all and I recommend everyone who want to grow
+                    their business online to contact to Grandeur Net Team, they will connect with you and give you best
+                    services.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/happy1.jpg" height="80px" class="testimonial-img flex-shrink-0" alt="">
+                    <div>
+                      <h3>Rohit</h3>
                       <h4>Ceo &amp; Founder</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -585,104 +661,8 @@
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Matt Brandon</h3>
-                      <h4>Freelancer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                    minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore.
+                    Best digital marketing services company in dehradun, They helped me in growing my business and take
+                    my business online. They know what exactly your business wants to get grow.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -1237,7 +1217,7 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>near bangali kothi, Dehradun</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1245,7 +1225,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>Support@grandeurnet.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1253,7 +1233,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <p>+91 82799 88072</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1261,7 +1241,7 @@
                 <i class="bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h4>Open Hours:</h4>
-                  <p>Mon-Sat: 11AM - 23PM</p>
+                  <p>Mon-Sat: 9AM - 7PM</p>
                 </div>
               </div><!-- End Info Item -->
             </div>
@@ -1307,48 +1287,51 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
+            <span>Grandeur Net</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
-            donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>We help you to expand your business in online market by providing our services to you. We help you to
+            increase your reach and your online branding.</p>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=8279988072&text&type=phone_number&app_absent=0"
+              class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/GRANDEURNET" class="facebook" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/grandeur_net/" class="instagram" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/grandeur-net" class="linkedin" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#hero">Home</a></li>
+            <!-- <li><a href="#">About us</a></li> -->
+            <li><a href="#about">Details</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Website Development</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Social Media Marketing</a></li>
+            <li><a href="#">Video editing</a></li>
+            <li><a href="#">Digital Marketing</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            near bangali kothi chowk,
+            Dehradun, Uttarakhand, India <br><br>
+            <strong>Phone:</strong> +91 82799 88072<br>
+            <strong>Email:</strong> support@grandeurnet.com<br>
           </p>
 
         </div>
@@ -1358,14 +1341,14 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Grandeur Net</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Grandeur Net</a>
       </div>
     </div>
 
